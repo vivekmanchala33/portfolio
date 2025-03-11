@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-card {
+    background: #333;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.project-card a {
+    color: cyan;
+    text-decoration: none;
+}
+
+footer {
+    background: #222;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Ensuring the Credits card stands out */
+.project-card:last-child {
+    border: 2px solid cyan;
+    font-weight: bold;
+}
